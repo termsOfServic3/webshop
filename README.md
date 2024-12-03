@@ -1,66 +1,78 @@
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+![product cart](https://github.com/user-attachments/assets/942cc250-2b0b-4db3-a68a-b52fe4469d6d)
+![added cart](https://github.com/user-attachments/assets/b63fb430-5fc5-4fbc-9d68-b83ed1678caf)
+![cart register](https://github.com/user-attachments/assets/59a649a6-7cad-47c0-8261-8b8713c70e0a)
+![checkout](https://github.com/user-attachments/assets/b3204ace-86b2-4755-b94d-646076277aff)
+![stripe](https://github.com/user-attachments/assets/aada6437-e0ea-41e7-ab5c-0f9a7000a280)
+![my orders](https://github.com/user-attachments/assets/bdff1514-021c-411a-89e9-df29eba55e56)
+![order #1](https://github.com/user-attachments/assets/6c2ca8a3-5e34-4465-99ec-016be4b6adde)
+![search](https://github.com/user-attachments/assets/3acdf875-054b-4d33-9cc9-a32570ab3b4a)
 
-## About Laravel
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
 
-## Learning Laravel
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
 
-## Laravel Sponsors
+Резюме проекту: Webshop 
+Мета проекту:
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+Цей проект — це веб-магазин, який пропонує користувачам можливість купувати одяг (футболки, светри тощо) через зручний та інтерактивний інтерфейс. Проект включає інтерфейс для динамічної вибірки фото продукту, платіжну систему Stripe для обробки покупок, а також розширений пошук товарів. Завдяки використанню Livewire забезпечено динамічне оновлення даних на фронтенді без необхідності перезавантаження сторінки, що підвищує зручність взаємодії з сайтом.
 
-### Premium Partners
+Ключові технології та інструменти:
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[WebReinvent](https://webreinvent.com/)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Jump24](https://jump24.co.uk)**
-- **[Redberry](https://redberry.international/laravel/)**
-- **[Active Logic](https://activelogic.com)**
-- **[byte5](https://byte5.de)**
-- **[OP.GG](https://op.gg)**
+Laravel — основний фреймворк для бекенд-логіки та роботи з базою даних.
 
-## Contributing
+Livewire — для створення динамічних інтерфейсів на серверній частині без необхідності написання значного JavaScript.
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+Eloquent ORM — для організації моделей і роботи з базою даних через зв'язки.
 
-## Code of Conduct
+Stripe — платіжна система для обробки онлайн-платежів.
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+Money Formatting — для форматування цін у зручний вигляд.
 
-## Security Vulnerabilities
+Dynamic Image Selection — для динамічної зміни зображень продукту.
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+Advanced Product Search — для здійснення розширеного пошуку товарів на сайті.
 
-## License
+Основні функціональні можливості проекту:
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+1. Продукти та їх категорії (футболки, светри)
+Каталог товарів з можливістю вибору за розміром та кольором (наприклад, футболка чи светр можуть бути доступні в кількох кольорах і розмірах).
+Кожен продукт містить динамічні зображення, які змінюються в залежності від вибраного варіанту (кольору, розміру).
+Використано Livewire для динамічного оновлення зображень продукту при зміні варіанту, без перезавантаження сторінки.
+
+2. Динамічна вибірка фото продукту
+Реалізовано динамічну вибірку фото продукту за допомогою Livewire, що дозволяє змінювати зображення товару без перезавантаження сторінки при виборі різних параметрів, таких як колір чи розмір.
+Livewire дозволяє обробляти запити до серверу в реальному часі, забезпечуючи швидке оновлення зображень без використання додаткового JavaScript-коду.
+
+3. Платіжна система Stripe
+Вбудовано Stripe для обробки онлайн-платежів, яка дає змогу користувачам безпечно оплачувати покупки через інтернет.
+Реалізовано автоматичний розрахунок податків для кожного замовлення на основі локації користувача.
+Livewire відповідає за створення сесій оплати та відправку запитів до Stripe, що дозволяє обробляти платежі без перезавантаження сторінки.
+Після успішної оплати сесія оновлюється, і дані користувача (наприклад, картка) очищаються, зберігаючи інтеграцію з платіжною системою.
+
+4. Колекція адрес під час покупки
+Користувач може вибрати або ввести адресу доставки під час оформлення покупки. Ця інформація збирається та зберігається в базі даних.
+Користувач може зберігати кілька адрес для подальших покупок, що дозволяє прискорити процес оформлення замовлень.
+
+5. Розрахунок і оновлення замовлення
+Livewire використовує дані зі сторінки, щоб автоматично оновлювати суму замовлення, коли кількість товару змінюється або варіанти кольору/розміру вибрані.
+Заміна товару у кошику або змінювання кількості оновлює підсумкову суму та обчислює податки, що відображаються в реальному часі.
+
+6. Перегляд замовлення та повідомлення
+Користувачі можуть переглядати деталі свого замовлення перед і після оформлення.
+Livewire відповідає за оновлення даних замовлення на етапах оплати, а також відправку повідомлень про успішну оплату.
+
+7. Advanced пошук товарів
+Реалізовано розширений пошук для товарів, який дозволяє користувачам фільтрувати одяг за різними критеріями (категорія, розмір, колір, ціна).
+Livewire використовує асинхронні запити для фільтрації товарів, що дає змогу змінювати результати без перезавантаження сторінки, забезпечуючи плавний і швидкий процес пошуку.
+
+8. Money Formatting
+Використано форматування валют для коректного відображення цін і сум на сайті, що підвищує зручність користувачів під час покупок.
+
+9. Автоматичне оновлення картки покупця
+Після успішної оплати через Stripe, Livewire автоматично очищує інформацію про картку покупця, що гарантує безпеку та забезпечує правильний процес оформлення замовлення.
